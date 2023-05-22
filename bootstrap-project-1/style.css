@@ -88,17 +88,23 @@ body {
     font-size: 2rem;
     font-weight: bold;
 }
-.box-transform{
-    transition: 0.5s;
-}
-.box-transform:hover{
-    transform: scale(1.05);
-}
-@media screen and (min-width:768px) and (max-width:992px){
-    .tools{
-     order:1
- } 
- }    
+
+ 
  .submit-btn{
     font-size: 1.6rem;
  }
+ 
+ @media screen and (min-width:768px) and (max-width:992px){
+    .tools{
+     order:1
+ } 
+ }   
+ @media screen and (min-width:1024px) {
+    .box-transform{
+        transition: 0.5s;
+    }
+    .box-transform:hover{
+        transform: scale(1.05);
+    }
+
+ }   

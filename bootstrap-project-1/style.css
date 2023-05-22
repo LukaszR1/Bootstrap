@@ -13,9 +13,7 @@ html{
 body {
     display: block;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-    
-    
+    font-size: 1.6rem;  
 }
 
 .hero-shadow{
@@ -56,49 +54,56 @@ body {
     font-size: 1.4rem;
     text-transform: uppercase;
 }
+
 .home .welcome-text{
     font-size: 2.2rem;
 }
+
 .aboutus-box h3{
     font-size: 2.4rem;
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .aboutus-icon{
     font-size: 4rem;
 }
-
 
 .accordion-button{
     padding:1em;
     font-size: 1.8rem;    
 }
+
 .accordion-button:not(.collapsed){
     background-color: rgb(248, 248, 248);
     color: rgb(233,106,22); 
 }
+
 .team{
     background-color: rgb(248,248,248);
 }
+
 .team .card-img-top{
     height: 300px;
     object-fit: cover;
 }
+
 .team .card-title{
     font-size: 2rem;
     font-weight: bold;
 }
 
- 
  .submit-btn{
     font-size: 1.6rem;
  }
+
  
  @media screen and (min-width:768px) and (max-width:992px){
     .tools{
      order:1
  } 
  }   
+
  @media screen and (min-width:1024px) {
     .box-transform{
         transition: 0.5s;

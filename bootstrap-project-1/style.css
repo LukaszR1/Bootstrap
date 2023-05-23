@@ -101,6 +101,9 @@ body {
  .submit-btn{
     font-size: 1.6rem;
  }
+ [id] {
+scroll-margin-top: 84px;
+ }
 
  
  @media screen and (min-width:768px) and (max-width:992px){
@@ -109,12 +112,15 @@ body {
  } 
  }   
 
- @media screen and (min-width:1024px) {
+ @media screen and (min-width:992px) {
     .box-transform{
         transition: 0.5s;
     }
     .box-transform:hover{
         transform: scale(1.05);
     }
+    [id] {
+        scroll-margin-top: 68px;
+         }
 
  }   
